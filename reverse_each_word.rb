@@ -6,4 +6,7 @@ def reverse_each_word(string)
   return reversed.join(" ")
 end 
 
-def reverse_each_word
+def reverse_each_word(string)
+  split_string = string.split(" ")
+  reversed = []
+  
