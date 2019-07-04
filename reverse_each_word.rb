@@ -2,6 +2,6 @@ def reverse_each_word(string)
   split_string = string.split(" ") 
   reversed = []
   split_string.each{
-    |i| reversed << reversed.unshift(i)}
+    |string| reversed << reversed.unshift(i)}
   return reversed.join(" ")
 end 
