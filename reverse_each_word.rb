@@ -5,3 +5,4 @@ def reverse_each_word(string)
     |elem| reversed << elem.reverse}
   return reversed.join(" ")
 end 
+
